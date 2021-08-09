@@ -1,0 +1,23 @@
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card{
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.column{
+    margin: 25px;
+    width: 33%;
+}
+
+.gallery {
+    display: flex;
+}

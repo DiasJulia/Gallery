@@ -7,4 +7,47 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gallery';
+
+  pictures: any[] = [
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    },
+    {
+      img: "../assets/pics/download-2.jpg",
+      tags: ['cyberpunk', 'roxo', 'pessoas'],
+      preco: 12
+    }
+  ]
 }
