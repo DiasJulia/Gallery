@@ -4,33 +4,25 @@
 
 <div class="gallery">
   <div class="column">
-    <div class="card" *ngFor="let pic of pictures">
-      <img src="../assets/pics/av52EBq_460s.jpg" alt="">
+    <div class="card" *ngFor="let pic of columns[0]">
+      <img src="{{pic.img}}" alt="{{pic.img}}">
     </div>
   </div>
 
   <div class="column">
-    <div class="card">
-      <img src="../assets/pics/av52EBq_460s.jpg" alt="">
-    </div>
-    <div class="card">
-      <img src="../assets/pics/images.jpg" alt="">
-    </div>
-    <div class="card">
-      <img src="../assets/pics/download-2.jpg" alt="">
+    <div class="card" *ngFor="let pic of columns[1]">
+      <img src="{{pic.img}}" alt="{{pic.img}}">
     </div>
   </div>
 
   <div class="column">
-    <div class="card">
-      <img src="../assets/pics/download-2.jpg" alt="">
-    </div>
-    <div class="card">
-      <img src="../assets/pics/av52EBq_460s.jpg" alt="">
-    </div>
-    <div class="card">
-      <img src="../assets/pics/download.jpg" alt="">
+    <div class="card" *ngFor="let pic of columns[2]">
+      <img src="{{pic.img}}" alt="{{pic.img}}">
     </div>
   </div>
 </div>
+
+<button class="float-btn" (click)="addPic()">
+  +
+</button>
 

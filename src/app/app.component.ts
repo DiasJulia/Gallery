@@ -25,7 +25,7 @@ export class AppComponent {
       preco: 12
     },
     {
-      img: "../assets/pics/download-2.jpg",
+      img: "../assets/pics/download.jpg",
       tags: ['cyberpunk', 'roxo', 'pessoas'],
       preco: 12
     },
@@ -50,4 +50,23 @@ export class AppComponent {
       preco: 12
     }
   ]
+
+  columns: any[] = [[],[],[]]
+
+  ngOnInit(){
+    let counter = 0;
+    this.pictures.forEach(e=> {
+      this.columns[counter].push(e);
+      if(counter < 2){
+        counter += 1;
+      } else {
+        counter = 0;
+      }
+    })
+    console.log(this.columns)
+  }
+
+  addPic() {
+    console.log("click")
+  }
 }

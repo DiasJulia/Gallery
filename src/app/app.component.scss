@@ -1,3 +1,17 @@
+.float-btn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
 .card img{
     width: 100%;
     height: auto;
@@ -5,6 +19,7 @@
 
 .card:hover{
     transform: scale(1.05);
+    margin-bottom: 25px;
 }
 
 .card{
